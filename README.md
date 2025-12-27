@@ -556,3 +556,56 @@ educationplatform/
 ## Helm Chart
 
 Helm чарт в `helm/educationplatform/` предоставляет готовое к продакшену развертывание в
+
+
+ps 
+локально все тесты проходят 
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in com.educationplatform.repository.UserRepositoryTest
+[INFO] Running com.educationplatform.model.SubmissionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.educationplatform.model.SubmissionTest
+[INFO] Running com.educationplatform.model.ProfileTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.ProfileTest
+[INFO] Running com.educationplatform.model.CategoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.CategoryTest
+[INFO] Running com.educationplatform.model.EnrollmentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.EnrollmentTest
+[INFO] Running com.educationplatform.model.QuestionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.educationplatform.model.QuestionTest
+[INFO] Running com.educationplatform.model.QuizSubmissionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.QuizSubmissionTest
+[INFO] Running com.educationplatform.model.CourseReviewTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.CourseReviewTest
+[INFO] Running com.educationplatform.model.CourseTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.CourseTest
+[INFO] Running com.educationplatform.model.AssignmentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.AssignmentTest
+[INFO] Running com.educationplatform.model.UserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.UserTest
+[INFO] Running com.educationplatform.model.TagTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.TagTest
+[INFO] Running com.educationplatform.model.ModuleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.ModuleTest
+[INFO] Running com.educationplatform.model.QuizTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.QuizTest
+[INFO] Running com.educationplatform.model.LessonTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.educationplatform.model.LessonTest
+[INFO] Running com.educationplatform.model.AnswerOptionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.educationplatform.model.AnswerOptionTest
+[INFO] Running com.educationplatform.service.UserServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in com.educationplatform.service.UserServiceTest
+[INFO] Running com.educationplatform.service.CourseServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.educationplatform.service.CourseServiceTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 61, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.076 s
+[INFO] Finished at: 2025-12-28T01:10:06+03:00
+[INFO] ------------------------------------------------------------------------
+
+на gitlab тоже
