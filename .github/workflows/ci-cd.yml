@@ -28,7 +28,7 @@ jobs:
       run: mvn -B clean package --file pom.xml
 
     - name: Run Tests
-      run: mvn test
+      run:  mvn clean  test
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v4
